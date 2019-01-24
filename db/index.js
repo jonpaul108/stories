@@ -1,10 +1,9 @@
 
 
 const mongoose = require('mongoose');
-console.log('on mongoose page');
 
 mongoose.connect('mongodb://localhost/story');
-db = mongoose.connection;
+const db = mongoose.connection;
 
 
 db.on('error', () => {console.log('error')});
@@ -15,17 +14,13 @@ db.once('open', () => {
 
 const Schema = mongoose.Schema;
 const storySchema = new Schema({
+  kind: String,
   title: String,
   author: String,
-  body: String,
-  comments: [{body: String, date: Date }],
-  date: {type: Date, default: Date.now},
-  meta: {
-    votes: Number,
-    favs: Number
-  }
+  url: String,
+  createdAt: {type: Date}
 })
 
 const Story = mongoose.model('Story', storySchema);
 
-module.exports = db;
+module.exports = Story;

@@ -1,0 +1,33 @@
+.main {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  background: black;
+  color: white;
+  height: 60px;
+  align-items: center;
+}
+
+.child {
+
+}
+
+.lastChild {
+  position: absolute;
+}
+.items {
+  position: relative;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  right: 10%;
+}
+.name {
+  float: left;
+  position: absolute;
+  right: 85%;
+  left: 5%;
+  font-family: Burgues, sans-serif;
+  font-size: 150%;
+}
