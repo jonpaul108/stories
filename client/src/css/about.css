@@ -1,0 +1,47 @@
+.aboutContainer {
+  height: 100%;
+  width: 50%;
+
+}
+.spaceBox{
+  height:100%;
+  width:33%;
+}
+
+.innerContainer {
+  height: 100%;
+  width: 100%;
+}
+
+.aboutText {
+line-height: 40px;
+}
+
+.aboutPage {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.sideInfo {
+  height:100%;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageRadius {
+  height:35%;
+  width: 50%;
+  border: 2px solid lightgrey;
+  border-radius: 50%;
+}
+
+.img {
+  width: 50%;
+  border-radius: 50%;
+  border: 2px solid ligthgrey;
+
+}

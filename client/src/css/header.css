@@ -4,8 +4,10 @@
   flex-direction: row;
   background: black;
   color: white;
-  height: 60px;
+  height: 8%;
+  width: auto;
   align-items: center;
+  margin-bottom: 3px;
 }
 
 .child {
@@ -28,6 +30,6 @@
   position: absolute;
   right: 85%;
   left: 5%;
-  font-family: Burgues, sans-serif;
+font-family: 'Leckerli One', cursive;
   font-size: 150%;
 }

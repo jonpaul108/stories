@@ -10,8 +10,6 @@ const Footer = (props) => {
       <div className={styles.leftFooter}>
         <span className={styles.spans}>Connect</span>
         <span className={styles.spans}>quotes</span>
-      </div>
-      <div className={styles.rightFooter}>
         <span className={styles.rightSpans} onClick={() => {handleChangePage('admin')}}>admin</span>
         <span className={styles.rightSpans}>reading list</span>
       </div>
